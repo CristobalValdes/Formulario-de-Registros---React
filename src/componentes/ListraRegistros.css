@@ -1,0 +1,16 @@
+/* ListaRegistros.css */
+
+.registro-item {
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.registro-item p {
+  margin: 5px 0; /* Espacio entre los párrafos */
+}
+
+.registro-item strong {
+  margin-right: 5px; /* Espacio entre el texto fuerte y el valor */
+}

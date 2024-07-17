@@ -1,0 +1,209 @@
+body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://img.freepik.com/fotos-premium/balon-futbol-3d-objeto-3d-ilustracion-grafico-fondo-elemento-deporte-resumen_262243-1985.jpg?size=626&ext=jpg&ga=GA1.1.1357918307.1712430445&semt=ais");
+}
+.cuadroText {
+  font-family: "Times New Roman", serif;
+  color: whitesmoke;
+  background-color: rgba(5, 90, 45, 0.701);
+  padding: 20px;
+  border-radius: 30px;
+}
+p {
+  color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+  color: whitesmoke; /* Color de títulos */
+}
+.colorwhitesmoke {
+  color: whitesmoke;
+}
+
+#form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  min-height: 35px;
+}
+
+.registered-users {
+  margin-top: 20px;
+}
+
+form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-top: 20px;
+}
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error-message {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+  display: none;
+}
+
+#registeredList {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.registrant {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.registrant p {
+  margin: 0;
+}
+
+.registrant button {
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: rgb(41, 57, 194);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registrant button:hover {
+  background-color: rgb(31, 47, 164);
+}
+
+.registrant button:active {
+  background-color: rgb(21, 37, 134);
+}
+
+.full {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #ff3860;
+}
+
+.success-msg {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #09c372;
+}
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Estilos para el navbar */
+.navbar {
+  margin-top: -30px; /* Ajusta este valor según sea necesario */
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(1, 0, 0);
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #296f44;
+}
